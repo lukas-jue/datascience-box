@@ -20,10 +20,12 @@ output:
 library(tidyverse)
 library(emo)
 ```
+---
 
 class: middle
 
 # Hello world!
+
 
 ---
 

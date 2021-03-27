@@ -7,6 +7,8 @@ library(tidyverse)
 library(skimr)
 ```
 
+    ## Warning: package 'skimr' was built under R version 4.0.4
+
 ``` r
 # From TidyTuesday: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md
 hotels <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-11/hotels.csv")
@@ -44,6 +46,6 @@ hotels %>%
        color = "Hotel type")
 ```
 
-    ## `summarise()` regrouping output by 'hotel' (override with `.groups` argument)
+    ## `summarise()` has grouped output by 'hotel'. You can override using the `.groups` argument.
 
 ![](hotels-forcats_files/figure-gfm/plot-1.png)<!-- -->

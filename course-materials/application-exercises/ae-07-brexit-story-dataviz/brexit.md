@@ -12,7 +12,7 @@ question:
 > -   Wrong to leave  
 > -   Don’t know
 
-The data from the survey are in `data/brexit.csv`.
+The data from the survey is in `data/brexit.csv`.
 
 ``` r
 brexit <- read_csv("data/brexit.csv")

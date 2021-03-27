@@ -7,6 +7,8 @@ library(tidyverse)
 library(skimr)
 ```
 
+    ## Warning: package 'skimr' was built under R version 4.0.4
+
 ``` r
 # From TidyTuesday: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md
 hotels <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-11/hotels.csv")

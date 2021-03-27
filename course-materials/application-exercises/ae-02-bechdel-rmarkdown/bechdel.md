@@ -14,6 +14,11 @@ We start with loading the packages we’ll use.
 
 ``` r
 library(fivethirtyeight)
+```
+
+    ## Warning: package 'fivethirtyeight' was built under R version 4.0.4
+
+``` r
 library(tidyverse)
 ```
 
@@ -54,7 +59,7 @@ bechdel90_13 %>%
 
     ## # A tibble: 2 x 4
     ##   binary med_budget med_domgross med_intgross
-    ##   <chr>       <dbl>        <dbl>        <dbl>
+    ## * <chr>       <dbl>        <dbl>        <dbl>
     ## 1 FAIL    48385984.    57318606.    104475669
     ## 2 PASS    31070724     45330446.     80124349
 
@@ -112,7 +117,7 @@ bechdel90_13 %>%
     ##  8 The Devil Inside         155.  2012
     ##  9 Primer                   142.  2004
     ## 10 Fireproof                134.  2008
-    ## # … with 1,605 more rows
+    ## # ... with 1,605 more rows
 
 Below is a visualization of the return on investment by test result,
 however it’s difficult to see the distributions due to a few extreme
